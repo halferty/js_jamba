@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>js_jamba</name>
+	<version>1.6.1</version>
+	<creationDate>March 2008</creationDate>
+	<author>Casey Lee</author>
+	<copyright>Joomlashack LLC</copyright>
+    <authorEmail>support@joomlashack.com</authorEmail>
+	<authorUrl>http://www.joomlashack.com</authorUrl>
+    <license>Creative Commons</license>
+	<description>Thank you for and installing the Jamba template from Joomlashack!</description>
+<files>
+	<filename>index.php</filename>
+	<filename>templateDetails.xml</filename>
+	<!--<filename>styleswitcher.php</filename>-->
+	<filename>themesaver.php</filename>
+	<filename>params.ini</filename>
+	<filename>template_thumbnail.png</filename>
+	<folder>css/</folder>
+	<folder>js/</folder>
+	<folder>images/</folder>
+</files>
+<positions>
+	<position>top</position>
+	<position>newsflash</position>
+	<position>left</position>
+	<position>right</position>
+	<position>banner</position>
+	<position>breadcrumbs</position>
+	<position>user4</position>
+	<position>user5</position>
+	<position>user6</position>
+	<position>user7</position>
+	<position>footer</position>
+</positions>
+<params>
+	<param name="headerstyle" type="list" default="text" label="Header Style" description="Header text render mehod">
+		<option value="graphic">Graphic</option>
+		<option value="text">Text</option>
+	</param>
+	<param name="headline" type="text" default="Jamba" label="Headline Text" size="30" description="Headline Text"></param>
+	<param name="slogan" type="text" default="A Free Template from Joomlashack" label="Slogan Text" size="30" description="Slogan Text"></param>
+	<param name="themecolor" type="list" default="style1" label="Theme Color" description="Template Style">
+		<option value="style1">Style 1</option>
+		<option value="style3">Style 3</option>
+	</param>
+</params>
+</install>

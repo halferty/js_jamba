@@ -1,0 +1,18 @@
+#main-wrapper {
+	position: relative;
+	top: -5px;
+}
+#navmenu li a {
+	line-height: 22px;
+	padding: 4px 10px 4px 0px;
+	display: inline;
+}
+.main-both	{
+	width: 545px;
+}
+.main-left-only	{
+	width: 750px;
+}
+.main-right-only	{
+	width: 740px;
+}

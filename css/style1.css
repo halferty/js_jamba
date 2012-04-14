@@ -1,0 +1,379 @@
+body {
+	background-image: url('../images/Page-BgSimpleGradient.jpg');
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: #686362;
+	line-height: 129%;
+}
+
+/* @group Typography */
+
+/* Link Colors */
+
+a {
+	color: #900;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #4a0000;
+	text-decoration: underline;
+}
+
+li {
+	background: url(../images/style3/bullet.gif) no-repeat 0 5px;
+}
+
+/* $headerstyle(graphic) */
+
+#header_graphic a img {
+	padding-top: 15px; /* Header Text distance from top */
+
+}
+
+/* Total header height */
+
+#header-wrap,#header_text,#header_graphic {
+	height: 205px;
+}
+
+/* Header background color/image */
+
+#header-wrap {
+	background-image: url('../images/Page-BgSimpleGradient.jpg');
+	background-repeat: repeat-x;
+}
+
+/* $headerstyle(text) */
+
+#header_text h1, #header_text h1 a {
+	color: #fff; /* Header Text Color */
+	padding-top:15px ; /* Header Text distance from top */
+	font: bold 40px/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; /* Header Text Typograhy */
+	letter-spacing: -1px;
+}
+#header_text h2 {
+	color: #fff; /* Slogan Text Color */
+	font: italic bold 18px/18px Geneva, Verdana, sans-serif;/* Slogan Text Typograhy */
+}
+
+/* Heading Styles */
+
+h1 {
+	color: #999;
+}
+
+h2 {
+	color: #999;
+}
+
+h3 {
+	color: #999;
+}
+
+h4 {
+	color: #999;
+}
+
+blockquote {
+	border: 1px solid #cfdbe2;
+	background: #ff0101;
+	color: #999;
+}
+
+.footer {
+	color: #fff;
+}
+
+/* @end */
+
+/* @group Newsflash Module */
+
+#headermod {
+	height: 98px; /* Module Height */
+	width: 500px; /* Module Width */
+	top:10px; /* Distance from top */
+	color: #dbded3; /* Text Color */
+}
+#headermod .contentheading,#headermod a.contentpagetitle,#headermod a {
+	color: #fff;/* Heading/Link Color */
+}
+
+#headermod td.contentheading,#headermod .moduletable h3 {
+	border-bottom: 1px solid #900;/* Content/Module Heading Border */
+}
+
+/* @end */
+
+/* @group Joomla! Styles */
+
+/* Category Tables */
+td.sectiontableheader {
+color: #fff;
+background: #990000;
+font: 14px/20px Arial, Helvetica, Geneva, sans-serif;
+}
+table tr.sectiontableentry1 td,
+table td.sectiontableentry1 {
+background: #000000;
+padding: 4px;
+border-bottom: 1px solid #f0f0f0;
+line-height: 155%;
+}
+table tr.sectiontableentry2 td,
+table td.sectiontableentry2 {
+background: #000000;
+padding: 4px;
+border-bottom: 1px solid #f0f0f0;
+line-height: 155%;
+}
+/* Polls */
+table.pollstableborder td.sectiontableentry1 {
+color: #3d2518;
+background: #000000;
+padding: 2px;
+border-bottom: 1px solid #fff;
+}
+table.pollstableborder td.sectiontableentry2 {
+color: #3d2518;
+background: #000;
+padding: 2px;
+border-bottom: 1px solid #fff;
+}
+table.pollstableborder td.sectiontableheader {
+padding: 8px;
+color: #fff;
+border: none;
+}
+table.pollstableborder tr.sectiontableentry1 td {
+border: none;
+}
+table.pollstableborder tr.sectiontableentry2 td {
+border: none;
+}
+
+/* Article Overflow */
+
+div.blog_more {
+	border-top: 1px solid #efefdd;
+}
+div.blog_more ul li a {
+	border-bottom: 1px solid #dadacc;
+}
+div.blog_more ul li a:hover {
+	border-bottom: 1px solid #dadacc;
+	background: #000000;
+}
+
+/* Mosimages */
+div.mosimage {
+	border: 1px solid #ccc;
+	background: #000000;
+}
+div.mosimage_caption {
+	color: #666;
+	background: #000000;
+	border-top: 1px solid #ccc;
+}
+/* Content Headings */
+a.contentpagetitle {
+	color: #470705;
+}
+a.contentpagetitle:hover {
+	color: #0f0;	
+}
+td.contentheading {
+	border-bottom: 1px solid #eaeaea;
+	color: #990000;
+}
+.contentheading {
+	color: #4e0509;
+}
+.componentheading {
+	color: #182b37;
+}
+a.readon {
+	background: url(../images/style3/readon.png) no-repeat left center;
+}
+span.small,.createdate,.modifydate {
+	font: 10px/10px Tahoma, Lucida, Verdana, sans-serif;
+	color: #b1b2b0;
+}
+.pagenav_next a,.pagenav_prev a {
+	border: 1px solid #d8c8c4;
+	background: #000000;
+	color: #b56c6e;
+}
+div.back_button a {
+	border: 1px solid #d8c8c4;
+	background: #feece7;
+	color: #b56c6e;
+}
+.pagenav_next a:hover,.pagenav_prev a:hover,div.back_button a:hover {
+	background: #fff;
+	color: #990000;
+}
+table.contenttoc {
+	background: #ff0000;
+	border: 1px solid #e8e6d8;
+}
+table.contenttoc th {
+	background: #660000;
+	color: #fff;
+}
+/* @end */
+
+/* Conditional Styles - Advanced Edits Only Below This Line */
+
+/* @group Style 3 Modules */
+
+/* Default Style */
+
+div.module h3,div.moduletable h3 {
+	border-bottom: 1px solid #ececec;
+	color: #660000;
+	background: url(../images/style3/mod_heading.png) no-repeat left center;
+}
+
+
+/* Module "S1" Text Style */
+.moduleS1 {position:relative;margin:0 0 1em;padding:0;background: #990000 url(../images/style3/topright_S1.png) top right no-repeat;color: #fbfbfb;}
+div.moduleS1 div {background: url(../images/style3/topleft_S1.png) top left no-repeat;}
+div.moduleS1 div div {background: url(../images/style3/botleft_S1.png) bottom left no-repeat; height:1%;}
+div.moduleS1 div div div {background: url(../images/style3/botright_S1.png) bottom right no-repeat;padding:10px;}
+div.moduleS1 div div div div {
+	background: #000000;}
+
+
+/* Module Heading "S1" Style */
+div.moduleS1 h3 {padding: 0;line-height: 100%;height: auto;margin: 0 0 5px 0;font-weight: normal;text-indent: 0px;font-size: 16px;letter-spacing: normal;border-bottom: 1px solid #b30000;color: #ffffff;}
+
+
+/* Module "S1" Link Color */
+div.moduleS1 a {color: #ffffff;text-decoration:underline;}
+div.moduleS1 a:hover {color: #ffffff;text-decoration:none;}
+
+
+
+/* Module "S1" List Styles */
+div.moduleS1 ul,div.moduleS1 ul.latestnewsS1,div.moduleS1 ul.mostreadS1 {list-style: none;margin: 0px;padding:0px;}div.moduleS1 ul li,div.moduleS1 ul.latestnewsS1 li,div.moduleS1 ul.mostreadS1 li {padding: 0px 0px 0px 10px;margin: 0px;background: url(../images/style3/bullet_S1.gif) no-repeat 0px 5px;white-space: normal;}
+
+/* Module "S2" Text Style */
+.moduleS2 {position:relative;margin:0 0 1em;padding:0;background: #da0000 url(../images/style3/topright_S2.png) top right no-repeat;color: #2e2e2e;}
+div.moduleS2 div {background: url(../images/style3/topleft_S2.png) top left no-repeat;}
+div.moduleS2 div div {background: url(../images/style3/botleft_S2.png) bottom left no-repeat; height:1%;}
+div.moduleS2 div div div {background: url(../images/style3/botright_S2.png) bottom right no-repeat;padding:10px;}
+div.moduleS2 div div div div {background:none;}
+
+
+/* Module Heading "S2" Style */
+div.moduleS2 h3 {padding: 0;line-height: 100%;height: auto;margin: 0 0 5px 0;font-weight: normal;text-indent: 0px;font-size: 16px;letter-spacing: normal;border-bottom: 1px solid #ababa1;color: #72726b;}
+
+
+/* Module "S2" Link Color */
+div.moduleS2 a {color: #990000;text-decoration:underline;}
+div.moduleS2 a:hover {color: #990000;text-decoration:none;}
+
+
+
+/* Module "S2" List Styles */
+div.moduleS2 ul,div.moduleS2 ul.latestnewsS2,div.moduleS2 ul.mostreadS2 {list-style: none;margin: 0px;padding:0px;}div.moduleS2 ul li,div.moduleS2 ul.latestnewsS2 li,div.moduleS2 ul.mostreadS2 li {padding: 0px 0px 0px 10px;margin: 0px;background: url(../images/style3/bullet_S2.gif) no-repeat 0px 5px;white-space: normal;}
+
+/* Module "S3" Text Style */
+.moduleS3 {position:relative;margin:0 0 1em;padding:0;background: #ebebeb url(../images/style3/topright_S3.png) top right no-repeat;color: #6e6e6e;}
+div.moduleS3 div {background: url(../images/style3/topleft_S3.png) top left no-repeat;}
+div.moduleS3 div div {background: url(../images/style3/botleft_S3.png) bottom left no-repeat; height:1%;}
+div.moduleS3 div div div {background: url(../images/style3/botright_S3.png) bottom right no-repeat;padding:10px;}
+div.moduleS3 div div div div {background:none;}
+
+
+/* Module Heading "S3" Style */
+div.moduleS3 h3 {padding: 0;line-height: 100%;height: auto;margin: 0 0 5px 0;font-weight: normal;text-indent: 0px;font-size: 16px;letter-spacing: normal;border-bottom: 1px solid #c7c7c7;color: #7a7a7a;}
+
+
+/* Module "S3" Link Color */
+div.moduleS3 a {color: #990000;text-decoration:underline;}
+div.moduleS3 a:hover {color: #990000;text-decoration:none;}
+
+
+
+/* Module "S3" List Styles */
+div.moduleS3 ul,div.moduleS3 ul.latestnewsS3,div.moduleS3 ul.mostreadS3 {list-style: none;margin: 0px;padding:0px;}div.moduleS3 ul li,div.moduleS3 ul.latestnewsS3 li,div.moduleS3 ul.mostreadS3 li {padding: 0px 0px 0px 10px;margin: 0px;background: url(../images/style3/bullet_S3.gif) no-repeat 0px 5px;white-space: normal;}/* @end */
+
+/* @group Structural */
+
+.main-top-both,.main-top-left-only {background: url(../images/style3/top_has_left.png) no-repeat center bottom;}
+.main-top-wide,.main-top-right-only {background: url(../images/style3/top_wide.png) no-repeat center bottom;}
+#mainbody-both	{background: url(../images/style3/mid_left_right.png) repeat-y center top;}
+#mainbody-left-only	{background: url(../images/style3/mid_leftonly.png) repeat-y center top;}
+#mainbody-wide,.mainbody-wide,#mainbody-right-only	{background: url(../images/style3/mid_wide.png) repeat-y center top;}
+
+.bottom-both,.bottom-left-only	{background: url(../images/style3/bot_has_left.png) no-repeat center top;}
+.bottom-wide,.bottom-right-only	{background: url(../images/style3/bot_wide.png) no-repeat center top;}
+.tplcright a {color: #fff;display: block;margin: 4px 0px 2px 5px;text-align: center;background: url(../images/style3/arrowl.png) no-repeat left center;text-indent: -5000em;width: 75px;height: 12px;line-height: 12px;padding: 0px;}
+ul.checklist li {background: url(../images/style3/checklist.png) no-repeat left center;}
+
+/* @end */
+
+/* @group Top Menu */
+
+.menubar {
+	background: url(../images/style3/navcontainer.png) repeat-x center top;
+}
+#navmenu {
+	background: url(../images/style3/navcontainer.png) no-repeat left top;
+}
+#navmenu li {
+	background: url(../images/style3/nav_norm_l.png) no-repeat bottom left;
+}
+#navmenu li a {
+	background: url(../images/style3/nav_norm_r.png) no-repeat bottom right;
+	color: #fff;
+}
+div#navmenu li:hover, div#navmenu li.iehover {
+	background: url(../images/style3/nav_hover_l.png) no-repeat bottom left;
+}
+div#navmenu li:hover a, div#navmenu li.iehover a {
+	background: url(../images/style3/nav_hover_r.png) no-repeat bottom right;
+	color: #660000;
+}
+div#navmenu li.active {
+	background: url(../images/style3/nav_active_l.png) no-repeat bottom left;
+}
+div#navmenu li.active a {
+	background: url(../images/style3/nav_active_r.png) no-repeat bottom right;
+	color: #FFF;
+}
+
+/* @end */
+/* @group Left Nav */
+
+#leftcol ul#mainlevel,#rightcol ul#mainlevel,
+#leftcol ul#mainlevel-sidenav,#rightcol ul#mainlevel-sidenav {
+	list-style: none;
+}
+
+#leftcol a.mainlevel,#rightcol a.mainlevel,
+#leftcol a.mainlevel-sidenav,#rightcol a.mainlevel-sidenav {
+	background: url(../images/style3/leftnav_norm.png) no-repeat left center;
+	color: #540609;
+}
+#leftcol a.mainlevel:hover,#rightcol a.mainlevel:hover,
+#leftcol a.mainlevel-sidenav:hover,#rightcol a.mainlevel-sidenav:hover {
+	background: url(../images/style3/leftnav_over.png) no-repeat left center;
+	color: #fff;
+}
+#leftcol a#active_menu.mainlevel,#leftcol a#active_menu.mainlevel:hover,
+#rightcol a#active_menu.mainlevel,#rightcol a#active_menu.mainlevel:hover,
+#leftcol a#active_menu-sidenav.mainlevel-sidenav,#leftcol a#active_menu-sidenav.mainlevel-sidenav:hover,
+#rightcol a#active_menu-sidenav.mainlevel-sidenav,#rightcol a#active_menu.mainlevel-sidenav:hover {
+	background: url(../images/style3/leftnav_active.png) no-repeat left center;
+	color: #fff;
+}
+a.sublevel,a.sublevel-sidenav {
+	color: #0f0;
+}
+/* @end */
+
